@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "igdb-proxy",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true },
+  "kv_namespaces": [
+    // Run `npx wrangler kv namespace create TOKENS` and paste the id here.
+    { "binding": "TOKENS", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }
+  ]
+  // Secrets (set with `npx wrangler secret put <NAME>`):
+  //   TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET, APP_KEY
+}

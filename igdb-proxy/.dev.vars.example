@@ -1,0 +1,4 @@
+# Copy to .dev.vars for `npm run dev` (never commit .dev.vars)
+TWITCH_CLIENT_ID=your_twitch_client_id
+TWITCH_CLIENT_SECRET=your_twitch_client_secret
+APP_KEY=any-long-random-string
